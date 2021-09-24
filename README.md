@@ -1,4 +1,4 @@
-# Checkpoint 2
+# Checkpoint 3
 
 ## Equipe
 
