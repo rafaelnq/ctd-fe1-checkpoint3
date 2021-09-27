@@ -1,17 +1,26 @@
+
 h2{
-    font-size: 40px;
-    padding: 20px 0;
+    font-size: 2.5rem;
+    padding: 1.25rem 0;
 }
 
 .btn{
-    border-radius: 9px;
-    padding: 8px 35px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #efefef;
+    color:#232323;
+    border: #efefef;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    border-radius: 1.2rem;
+    padding: 0.6rem 3rem;
 }
+
 .btn:hover{
     transition: all .3s ease-in-out;
-    background-color: brown;
-    border-radius: 9px;
-    border-color: brown;
+    background-color: #232323;
+    color:#efefef;
+    border: 0.063rem solid #efefef;
 }
 
 div a{
@@ -27,3 +36,4 @@ div a{
 #login-esquecer, #cadastrar{
     color:white;
 }
+
