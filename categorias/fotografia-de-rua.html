@@ -21,7 +21,8 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="../css/styles.css" />
-    <title>f/6 - Fotografia de Rua</title>
+    <link rel="stylesheet" href="../css/categorias.css" />
+    <title>f/6 - Fotografia de rua</title>
   </head>
   <body>
     <header class="container-fluid px-sm-3 px-lg-5 py-4">
@@ -30,30 +31,234 @@
           <img class="logo" src="../images/logo.svg" alt="f/6" />
         </a>
 
-        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarLinks">
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarLinks"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarLinks">
           <ul class="nav">
-            <li class="nav-item"><a href="../index.html" class="nav-link">Home</a></li>
+            <li class="nav-item">
+              <a href="../index.html" class="nav-link">Home</a>
+            </li>
             <li class="nav-item">
               <a href="../index.html#fotos" class="nav-link active">Fotos</a>
             </li>
-            <li class="nav-item"><a href="../sobre.html" class="nav-link">Sobre Nós</a></li>
-            <li class="nav-item"><a href="../login.html" class="nav-link">Login</a></li>
+            <li class="nav-item">
+              <a href="../sobre.html" class="nav-link">Sobre Nós</a>
+            </li>
+            <li class="nav-item">
+              <a href="../login.html" class="nav-link">Login</a>
+            </li>
           </ul>
         </div>
       </nav>
     </header>
 
     <main>
-      <!-- TODO -->
+      <section
+        id="categoria-header"
+        class="container-fluid py-4 row row-cols-1 row-cols-md-2"
+      >
+        <div class="col p-0 m-0" id="capa">
+          <img
+            class="img-fluid"
+            src="../images/categorias/fotografia-de-rua/capa.jpg"
+            alt="Trem vermelho sobre trilhos"
+          />
+        </div>
+        <div
+          class="
+            col
+            d-flex
+            flex-column
+            p-4
+            align-items-center
+            justify-content-center
+          "
+          id="descricao"
+        >
+          <h2>Fotografia de rua</h2>
+          <p class="mt-4">
+            Veja aqui algumas das fotografias de rua disponíveis no acervo.
+          </p>
+        </div>
+      </section>
+      <section id="galeria" class="container my-4">
+        <div class="row row-cols-sm-1 row-cols-md-2 g-4">
+          <img
+            class="col img-fluid"
+            src="../images/categorias/fotografia-de-rua/1.jpg"
+            alt="Homens sentados em bancos na calçada"
+            data-toggle="modal"
+            data-target="#fotografia-de-rua1"
+          />
+          <img
+            class="col img-fluid"
+            src="../images/categorias/fotografia-de-rua/2.jpg"
+            alt="Prédios ao pôr do sol"
+            data-toggle="modal"
+            data-target="#fotografia-de-rua2"
+          />
+          <img
+            class="col img-fluid"
+            src="../images/categorias/fotografia-de-rua/3.jpg"
+            alt="Entrada e fachada de uma igreja"
+            data-toggle="modal"
+            data-target="#fotografia-de-rua3"
+          />
+          <img
+            class="col img-fluid"
+            src="../images/categorias/fotografia-de-rua/4.jpg"
+            alt="Fonte com chafariz"
+            data-toggle="modal"
+            data-target="#fotografia-de-rua4"
+          />
+          <img
+            class="col img-fluid"
+            src="../images/categorias/fotografia-de-rua/5.jpeg"
+            alt="Foto em preto e branco de prédios monolíticos"
+            data-toggle="modal"
+            data-target="#fotografia-de-rua5"
+          />
+          <img
+            class="col img-fluid"
+            src="../images/categorias/fotografia-de-rua/capa.jpg"
+            alt="Pessoas fazendo ato na rua"
+            data-toggle="modal"
+            data-target="#fotografia-de-ruaCapa"
+          />
+        </div>
+      </section>
     </main>
 
+    <!-- Modais -->
+    <div
+      class="modal fade"
+      id="fotografia-de-rua1"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="fotografia-de-rua1"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <img
+            class="img-fluid"
+            src="../images/categorias/fotografia-de-rua/1.jpg"
+            alt="Homens sentados em bancos na calçada"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="fotografia-de-rua2"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="fotografia-de-rua2"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <img
+            class="img-fluid"
+            src="../images/categorias/fotografia-de-rua/2.jpg"
+            alt="Prédios ao pôr do sol"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="fotografia-de-rua3"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="fotografia-de-rua3"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <img
+            class="img-fluid"
+            src="../images/categorias/fotografia-de-rua/3.jpg"
+            alt="Entrada e fachada de uma igreja"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="fotografia-de-rua4"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="fotografia-de-rua4"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <img
+            class="img-fluid"
+            src="../images/categorias/fotografia-de-rua/4.jpg"
+            alt="Fonte com chafariz"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="fotografia-de-rua5"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="fotografia-de-rua5"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <img
+            class="img-fluid"
+            src="../images/categorias/fotografia-de-rua/5.jpeg"
+            alt="Foto em preto e branco de prédios monolíticos"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="fotografia-de-ruaCapa"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="fotografia-de-ruaCapa"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <img
+            class="img-fluid"
+            src="../images/categorias/fotografia-de-rua/capa.jpg"
+            alt="Pessoas fazendo ato na rua"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- Javascript -->
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
   </body>
