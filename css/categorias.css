@@ -1,0 +1,21 @@
+#capa img {
+  width: 100%;
+}
+
+#categoria-header {
+  background-color: #efefef;
+}
+
+#categoria-header p,
+#categoria-header h2 {
+  color: #232323;
+}
+
+#galeria img {
+  transition: filter 0.3s ease-in-out;
+}
+
+#galeria img:hover {
+  filter: brightness(0.75);
+  cursor: pointer;
+}

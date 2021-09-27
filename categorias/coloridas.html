@@ -21,6 +21,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/categorias.css" />
     <title>f/6 - Coloridas</title>
   </head>
   <body>
@@ -30,30 +31,234 @@
           <img class="logo" src="../images/logo.svg" alt="f/6" />
         </a>
 
-        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarLinks">
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarLinks"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarLinks">
           <ul class="nav">
-            <li class="nav-item"><a href="../index.html" class="nav-link">Home</a></li>
+            <li class="nav-item">
+              <a href="../index.html" class="nav-link">Home</a>
+            </li>
             <li class="nav-item">
               <a href="../index.html#fotos" class="nav-link active">Fotos</a>
             </li>
-            <li class="nav-item"><a href="../sobre.html" class="nav-link">Sobre Nós</a></li>
-            <li class="nav-item"><a href="../login.html" class="nav-link">Login</a></li>
+            <li class="nav-item">
+              <a href="../sobre.html" class="nav-link">Sobre Nós</a>
+            </li>
+            <li class="nav-item">
+              <a href="../login.html" class="nav-link">Login</a>
+            </li>
           </ul>
         </div>
       </nav>
     </header>
 
     <main>
-      <!-- TODO -->
+      <section
+        id="categoria-header"
+        class="container-fluid py-4 row row-cols-1 row-cols-md-2"
+      >
+        <div class="col p-0 m-0" id="capa">
+          <img
+            class="img-fluid"
+            src="../images/categorias/coloridas/capa.jpg"
+            alt="Trem vermelho sobre trilhos"
+          />
+        </div>
+        <div
+          class="
+            col
+            d-flex
+            flex-column
+            p-4
+            align-items-center
+            justify-content-center
+          "
+          id="descricao"
+        >
+          <h2>Coloridas</h2>
+          <p class="mt-4">
+            Veja aqui algumas das fotos coloridas disponíveis no acervo.
+          </p>
+        </div>
+      </section>
+      <section id="galeria" class="container my-4">
+        <div class="row row-cols-sm-1 row-cols-md-2 g-4">
+          <img
+            class="col img-fluid"
+            src="../images/categorias/coloridas/1.jpg"
+            alt="Bancada cheia de bichos de plástico"
+            data-toggle="modal"
+            data-target="#coloridas1"
+          />
+          <img
+            class="col img-fluid"
+            src="../images/categorias/coloridas/2.jpg"
+            alt="Interior de uma livraria"
+            data-toggle="modal"
+            data-target="#coloridas2"
+          />
+          <img
+            class="col img-fluid"
+            src="../images/categorias/coloridas/3.jpg"
+            alt="Varal com rendas penduradas"
+            data-toggle="modal"
+            data-target="#coloridas3"
+          />
+          <img
+            class="col img-fluid"
+            src="../images/categorias/coloridas/4.jpg"
+            alt="Vista de uma cidade com mar ao fundo"
+            data-toggle="modal"
+            data-target="#coloridas4"
+          />
+          <img
+            class="col img-fluid"
+            src="../images/categorias/coloridas/5.jpg"
+            alt="Árvores ao pôr do sol"
+            data-toggle="modal"
+            data-target="#coloridas5"
+          />
+          <img
+            class="col img-fluid"
+            src="../images/categorias/coloridas/capa.jpg"
+            alt="Trem vermelho sobre trilhos"
+            data-toggle="modal"
+            data-target="#coloridasCapa"
+          />
+        </div>
+      </section>
     </main>
 
+    <!-- Modais -->
+    <div
+      class="modal fade"
+      id="coloridas1"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="coloridas1"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <img
+            class="img-fluid"
+            src="../images/categorias/coloridas/1.jpg"
+            alt="Bancada cheia de bichos de plástico"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="coloridas2"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="coloridas2"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <img
+            class="img-fluid"
+            src="../images/categorias/coloridas/2.jpg"
+            alt="Interior de uma livraria"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="coloridas3"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="coloridas3"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <img
+            class="img-fluid"
+            src="../images/categorias/coloridas/3.jpg"
+            alt="Varal com rendas penduradas"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="coloridas4"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="coloridas4"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <img
+            class="img-fluid"
+            src="../images/categorias/coloridas/4.jpg"
+            alt="Vista de uma cidade com mar ao fundo"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="coloridas5"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="coloridas5"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <img
+            class="img-fluid"
+            src="../images/categorias/coloridas/5.jpg"
+            alt="Árvores ao pôr do sol"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="coloridasCapa"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="coloridasCapa"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <img
+            class="img-fluid"
+            src="../images/categorias/coloridas/capa.jpg"
+            alt="Trem vermelho sobre trilhos"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- Javascript -->
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
   </body>
