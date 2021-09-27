@@ -1,0 +1,78 @@
+
+h2{
+    padding-top: 10px;
+}
+
+.row{
+    padding-top: 40px;
+}
+
+.row > div{
+    padding: 5px 5px;
+    margin: 0;
+}
+
+.img-container{
+    height: 50vh;
+    margin: 0px;
+    overflow: hidden;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+div img{
+    height: 100%;
+    object-fit: cover;
+    transition: all .3s ease-in-out;
+    overflow: hidden;
+    border-radius: 3px;
+    filter: grayscale(100%);
+}
+
+#logo_github{
+    height: 40px;
+    position: absolute;
+    opacity: 0;
+    bottom: 5px;
+    right: 5px;
+    border: 2px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+}
+
+.infos{
+    padding-top: 30px;
+    display: none;
+    transition: all .3s ease-in-out;
+}
+
+.img-container:hover{
+    transform: scale(1.1);
+}
+
+.img-container:hover img{
+    filter:none;
+}
+
+.img-container:hover + .infos{
+    display: block;
+}
+
+.col-md-4:hover #logo_github{
+    opacity: 1;
+    z-index: 3;
+}
+
+#logo_github:hover{
+    transform: scale(1.1);
+    filter:invert(100%);
+}
+
+.col-md-4:hover{
+    padding-top: 25px;
+}
+
