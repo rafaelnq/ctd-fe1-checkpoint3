@@ -1,3 +1,4 @@
+
 :root {
   --clr-black: #232323;
   --clr-white: #efefef;
@@ -162,13 +163,14 @@ header {
 .banner {
     width: 100%;
     height: calc(100vh - 124.5px);
-    background-image: url('/images/bg_banner.jpeg');
+    background-image: url('../images/bg_banner.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
     color: var(--clr-black);
-    padding: 30vh 0;
+    padding: 22vh 5%;
+    text-align: center;
 }
 
 .banner h1{
