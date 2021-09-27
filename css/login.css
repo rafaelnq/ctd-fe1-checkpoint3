@@ -1,0 +1,29 @@
+h2{
+    font-size: 40px;
+    padding: 20px 0;
+}
+
+.btn{
+    border-radius: 9px;
+    padding: 8px 35px;
+}
+.btn:hover{
+    transition: all .3s ease-in-out;
+    background-color: brown;
+    border-radius: 9px;
+    border-color: brown;
+}
+
+div a{
+    text-decoration: none;
+}
+
+#email-login:focus, #password-login:focus, #lembrar:focus, #nome:focus, #sobrenome:focus, #dn:focus, #cel:focus, #email:focus, #endereco:focus, #num:focus, #bairro:focus, #complemento:focus, #cidade:focus, #estado:focus, #senha:focus, #confirma-senha:focus, #gridCheck:focus{
+    box-shadow: none;
+    border: 0 none;
+    outline: 0;
+} 
+
+#login-esquecer, #cadastrar{
+    color:white;
+}
