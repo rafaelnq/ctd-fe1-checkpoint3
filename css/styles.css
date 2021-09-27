@@ -86,14 +86,6 @@ header {
   font-weight: 700;
 }
 
-/* Banner */
-#banner {
-  height: calc(100vh - 124.5px);
-  display: grid;
-  place-content: center;
-  text-align: center;
-}
-
 /* Section Fotos */
 #fotos {
   padding-top: 48px;
@@ -163,4 +155,41 @@ header {
 
 .categoria:hover a {
   opacity: 1;
+}
+
+/* Banner */
+
+.banner {
+    width: 100%;
+    height: calc(100vh - 124.5px);
+    background-image: url('/images/bg_banner.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: var(--clr-black);
+    padding: 30vh 0;
+}
+
+.banner h1{
+    font-family: var(--ff-headings);
+    font-size: 3rem;
+}
+
+.banner h4 {
+    font-family: var(--ff-body);
+    font-size: 1.8rem;
+}
+
+.banner button{
+    font-family: var(--ff-body);
+    font-size: 1.4rem;
+    transition: all 0.3s ease-in-out;
+    border-radius: 1.2rem;
+    padding: 0.6rem 3rem;
+}
+
+.banner button:hover {
+    background-color: transparent;
+    color: var(--clr-black);
 }
