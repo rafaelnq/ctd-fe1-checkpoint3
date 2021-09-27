@@ -3,6 +3,17 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="./images/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -10,10 +21,95 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./css/styles.css" />
-    <title>Hello, world!</title>
+    <title>f/6 - Home</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <header class="container-fluid px-sm-3 px-lg-5 py-4">
+      <nav class="navbar navbar-expand-md navbar-dark justify-content-between">
+        <a href="#" class="navbar-brand">
+          <img class="logo" src="images/logo.svg" alt="f/6" />
+        </a>
+
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarLinks">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarLinks">
+          <ul class="nav">
+            <li class="nav-item"><a href="./index.html" class="nav-link active">Home</a></li>
+            <li class="nav-item"><a href="./#fotos" class="nav-link">Fotos</a></li>
+            <li class="nav-item"><a href="./sobre.html" class="nav-link">Sobre Nós</a></li>
+            <li class="nav-item"><a href="./login.html" class="nav-link">Login</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="banner">
+        <h1>Um banner qualquer</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae error nostrum nam earum
+          quasi officia in maxime labore, cum esse deserunt minus iste officiis temporibus, voluptas
+          reiciendis ullam quo rerum?
+        </p>
+        <a href="#fotos">Ver fotos</a>
+      </section>
+
+      <section id="fotos">
+        <div class="container-lg">
+          <h2 class="mb-4">Categorias</h2>
+
+          <ul class="categorias row gy-4">
+            <li class="col-lg-4 col-md-6 col-sm-12">
+              <div class="categoria">
+                <img src="../../images/categorias/paisagens/capa.jpg" alt="Paisagens" />
+                <h3>Paisagens</h3>
+                <a href="./categorias/paisagens.html">Ver fotos</a>
+              </div>
+            </li>
+            <li class="col-lg-4 col-md-6 col-sm-12">
+              <div class="categoria">
+                <img src="../../images/categorias/viagens/capa.jpg" alt="Viagens" />
+                <h3>Viagens</h3>
+                <a href="./categorias/viagens.html">Ver fotos</a>
+              </div>
+            </li>
+            <li class="col-lg-4 col-md-6 col-sm-12">
+              <div class="categoria">
+                <img src="../../images/categorias/preto-e-branco/capa.jpg" alt="Preto & Branco" />
+                <h3>Preto & Branco</h3>
+                <a href="./categorias/preto-e-branco.html">Ver fotos</a>
+              </div>
+            </li>
+            <li class="col-lg-4 col-md-6 col-sm-12">
+              <div class="categoria">
+                <img src="../../images/categorias/retratos/capa.jpg" alt="Retratos" />
+                <h3>Retratos</h3>
+                <a href="./categorias/retratos.html">Ver fotos</a>
+              </div>
+            </li>
+            <li class="col-lg-4 col-md-6 col-sm-12">
+              <div class="categoria">
+                <img
+                  src="../../images/categorias/fotografia-de-rua/capa.jpg"
+                  alt="Fotografia de Rua"
+                />
+                <h3>Fotografia de Rua</h3>
+                <a href="./categorias/fotografia-de-rua.html">Ver fotos</a>
+              </div>
+            </li>
+            <li class="col-lg-4 col-md-6 col-sm-12">
+              <div class="categoria">
+                <img src="../../images/categorias/coloridas/capa.jpg" alt="Coloridas" />
+                <h3>Coloridas</h3>
+                <a href="./categorias/coloridas.html">Ver fotos</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
