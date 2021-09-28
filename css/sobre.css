@@ -3,6 +3,7 @@ h2{
     padding-top: 10px;
 }
 
+
 .row{
     padding-top: 40px;
 }
@@ -63,7 +64,7 @@ div img{
 }
 
 .col-md-4:hover #logo_github{
-    opacity: 1;
+    opacity: 0.7;
     z-index: 3;
 }
 
@@ -76,3 +77,22 @@ div img{
     padding-top: 25px;
 }
 
+@media (max-width:575px) {
+    .row > div{
+        padding: 0;
+        padding-bottom: 8px;
+    }
+    div > img{
+        width: 90vw;
+    }
+    .img-container:hover{
+        width: 100vw;
+    }
+    #logo_github{
+        right: 8vw;
+    }
+    .infos{
+        text-align: center;
+        padding: 30px 8px;
+    }
+}
