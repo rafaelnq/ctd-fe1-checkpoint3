@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
+
+<head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="shortcut icon" href="./images/favicon.ico" />
@@ -9,104 +10,120 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
-      crossorigin="anonymous"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous" />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>f/6 - Home</title>
-  </head>
-  <body>
+</head>
 
+<body>
     <header class="container-fluid px-sm-3 px-lg-5 py-4">
-      <nav class="navbar navbar-expand-md navbar-dark justify-content-between">
-        <a href="#" class="navbar-brand">
-          <img class="logo" src="images/logo.svg" alt="f/6" />
-        </a>
+        <nav class="navbar navbar-expand-md navbar-dark justify-content-between">
+            <a href="#" class="navbar-brand">
+                <img class="logo" src="images/logo.svg" alt="f/6" />
+            </a>
 
-        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarLinks">
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarLinks">
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarLinks">
-          <ul class="nav">
-            <li class="nav-item"><a href="./index.html" class="nav-link active">Home</a></li>
-            <li class="nav-item"><a href="./#fotos" class="nav-link">Fotos</a></li>
-            <li class="nav-item"><a href="./sobre.html" class="nav-link">Sobre Nós</a></li>
-            <li class="nav-item"><a href="./login.html" class="nav-link">Login</a></li>
-          </ul>
-        </div>
-      </nav>
+            <div class="collapse navbar-collapse" id="navbarLinks">
+                <ul class="nav">
+                    <li class="nav-item"><a href="./index.html" class="nav-link active">Home</a></li>
+                    <li class="nav-item"><a href="./#fotos" class="nav-link">Fotos</a></li>
+                    <li class="nav-item"><a href="./sobre.html" class="nav-link">Sobre Nós</a></li>
+                    <li class="nav-item"><a href="./login.html" class="nav-link">Login</a></li>
+                </ul>
+            </div>
+        </nav>
     </header>
-
     <main>
+        <section id="banner" class="banner d-flex flex-column align-items-center justify-content-around">
+            <h1>fotos como você nunca viu</h1>
+            </div>
+            <h4>a fotografia é uma das poucas coisas que tem poder sobre o tempo: ela o paralisa.</h4>
+            <a href="#fotos"><button type="button" class="btn btn-dark">Saiba mais</button></a>
+        </section>
+        <section id="fotos">
+            <div class="container-lg">
+                <h2 class="mb-4">Categorias</h2>
 
-      <section id="banner" class="banner d-flex flex-column align-items-center justify-content-around">
-        <h1>fotos como você nunca viu</h1>
-        </div>
-        <h4>a fotografia é uma das poucas coisas que tem poder sobre o tempo: ela o paralisa.</h4>
-        <a href="#fotos"><button type="button" class="btn btn-dark">Saiba mais</button></a>
-
-       </section>
-
-      <section id="fotos">
-        <div class="container-lg">
-          <h2 class="mb-4">Categorias</h2>
-
-          <ul class="categorias row gy-4">
-            <li class="col-lg-4 col-md-6 col-sm-12">
-              <div class="categoria">
-                <img src="./images/categorias/paisagens/capa.jpg" alt="Paisagens" />
-                <h3>paisagens</h3>
-                <a href="./categorias/paisagens.html">ver fotos</a>
-              </div>
-            </li>
-            <li class="col-lg-4 col-md-6 col-sm-12">
-              <div class="categoria">
-                <img src="./images/categorias/viagens/capa.jpg" alt="Viagens" />
-                <h3>viagens</h3>
-                <a href="./categorias/viagens.html">ver fotos</a>
-              </div>
-            </li>
-            <li class="col-lg-4 col-md-6 col-sm-12">
-              <div class="categoria">
-                <img src="./images/categorias/preto-e-branco/capa.jpg" alt="Preto & Branco" />
-                <h3>preto & branco</h3>
-                <a href="./categorias/preto-e-branco.html">ver fotos</a>
-              </div>
-            </li>
-            <li class="col-lg-4 col-md-6 col-sm-12">
-              <div class="categoria">
-                <img src="./images/categorias/retratos/capa.jpg" alt="Retratos" />
-                <h3>retratos</h3>
-                <a href="./categorias/retratos.html">ver fotos</a>
-              </div>
-            </li>
-            <li class="col-lg-4 col-md-6 col-sm-12">
-              <div class="categoria">
-                <img src="./images/categorias/fotografia-de-rua/capa.jpg" alt="Fotografia de Rua" />
-                <h3>fotografia de Rua</h3>
-                <a href="./categorias/fotografia-de-rua.html">ver fotos</a>
-              </div>
-            </li>
-            <li class="col-lg-4 col-md-6 col-sm-12">
-              <div class="categoria">
-                <img src="./images/categorias/coloridas/capa.jpg" alt="Coloridas" />
-                <h3>coloridas</h3>
-                <a href="./categorias/coloridas.html">ver fotos</a>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </section>
+                <ul class="categorias row gy-4">
+                    <li class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="categoria">
+                            <img src="./images/categorias/paisagens/capa.jpg" alt="Paisagens" />
+                            <h3>paisagens</h3>
+                            <a href="./categorias/paisagens.html">ver fotos</a>
+                        </div>
+                    </li>
+                    <li class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="categoria">
+                            <img src="./images/categorias/viagens/capa.jpg" alt="Viagens" />
+                            <h3>viagens</h3>
+                            <a href="./categorias/viagens.html">ver fotos</a>
+                        </div>
+                    </li>
+                    <li class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="categoria">
+                            <img src="./images/categorias/preto-e-branco/capa.jpg" alt="Preto & Branco" />
+                            <h3>preto & branco</h3>
+                            <a href="./categorias/preto-e-branco.html">ver fotos</a>
+                        </div>
+                    </li>
+                    <li class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="categoria">
+                            <img src="./images/categorias/retratos/capa.jpg" alt="Retratos" />
+                            <h3>retratos</h3>
+                            <a href="./categorias/retratos.html">ver fotos</a>
+                        </div>
+                    </li>
+                    <li class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="categoria">
+                            <img src="./images/categorias/fotografia-de-rua/capa.jpg" alt="Fotografia de Rua" />
+                            <h3>fotografia de Rua</h3>
+                            <a href="./categorias/fotografia-de-rua.html">ver fotos</a>
+                        </div>
+                    </li>
+                    <li class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="categoria">
+                            <img src="./images/categorias/coloridas/capa.jpg" alt="Coloridas" />
+                            <h3>coloridas</h3>
+                            <a href="./categorias/coloridas.html">ver fotos</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
     </main>
+    <div class="container">
+        <footer class="py-3 my-4 border-top">
+            <img class="logo mx-auto d-block my-3" src="./images/logo.svg" alt="f/6">
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+            <p class='text-muted my-4 text-center'>Desenlvido por</p>
+
+            <div class="row row-cols-6 row-cols-lg-6 g-lg-0 my-4 justify-content-center">
+                <div class="col-lg-1 text-center">
+                    <a href="https://github.com/DafneBarbosa" alt="Dafne" target="_blank"><img src="./images/sobre/dafne.jpg" class="footer-gallery bd-placeholder-img rounded-circle" width="45" height="45"></a>
+                </div>
+                <div class="col-lg-1 text-center">
+                    <a href="https://github.com/juhanada" alt="Juíle" target="_blank"><img src="./images/sobre/juile.jpg" class="footer-gallery bd-placeholder-img rounded-circle" width="45" height="45"></a>
+                </div>
+                <div class="col-lg-1 text-center">
+                    <a href="https://github.com/Matheus-Days" alt="Matheus" target="_blank"><img src="./images/sobre/matheus.jpg" class="footer-gallery bd-placeholder-img rounded-circle" width="45" height="45"></a>
+                </div>
+                <div class="col-lg-1 text-center">
+                    <a href="https://github.com/pdrmenezes" alt="Pedro" target="_blank"><img src="./images/sobre/pedro.jpg" class="footer-gallery bd-placeholder-img rounded-circle" width="45" height="45"></a>
+                </div>
+                <div class="col-lg-1 text-center">
+                    <a href="https://github.com/rafaelnq" alt="Rafael" target="_blank"><img src="./images/sobre/rafael.jpg" class="footer-gallery bd-placeholder-img rounded-circle" width="45" height="45"></a>
+                </div>
+                <div class="col-lg-1 text-center">
+                    <a href="https://github.com/vanessa-maganhoto" alt="Vanessa" target="_blank">
+                        <img src="./images/sobre/vanessa.jpg" class="footer-gallery bd-placeholder-img rounded-circle" width="45" height="45"></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+
 </html>
