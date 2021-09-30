@@ -2,10 +2,18 @@ form{
     margin: 9rem 0;
 }
 
+div{
+    color: black; 
+}
+ 
+.form-check-label{
+    color: white;
+}
 @media(max-width:600px){
     .form-control, .form-select{
         width: 80%;
         margin-left: 30px;
+
     }
     .form-check{
         margin-top: 5px;
@@ -15,6 +23,15 @@ form{
     }
     .btn{
         margin-top: 30px;
+    }
+    label{
+        font-size: .8rem;
+        margin-left: 20px;
+
+    }
+
+    .form-text{
+        font-size: 0.7rem;
     }
 }
 
