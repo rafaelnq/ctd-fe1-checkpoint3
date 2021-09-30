@@ -1,15 +1,15 @@
 :root {
-  --clr-black: #232323;
-  --clr-white: #efefef;
-  --ff-headings: "Dela Gothic One", cursive;
-  --ff-body: "Montserrat", sans-serif;
+    --clr-black: #232323;
+    --clr-white: #efefef;
+    --ff-headings: "Dela Gothic One", cursive;
+    --ff-body: "Montserrat", sans-serif;
 }
 
 body {
-  background-color: var(--clr-black);
-  color: var(--clr-white);
-  font-family: var(--ff-body);
-  scroll-behavior: smooth;
+    background-color: var(--clr-black);
+    color: var(--clr-white);
+    font-family: var(--ff-body);
+    scroll-behavior: smooth;
 }
 
 h1,
@@ -18,204 +18,210 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--ff-headings);
+    font-family: var(--ff-headings);
 }
 
 header {
-  background-color: var(--clr-black);
+    background-color: var(--clr-black);
 }
 
 .logo {
-  max-width: 180px;
+    max-width: 180px;
 }
+
 
 /* Navbar */
 
 .navbar {
-  padding: 0;
+    padding: 0;
 }
 
 .navbar-brand {
-  padding: 0;
+    padding: 0;
 }
+
 
 /* Nav Links */
 
 #navbarLinks {
-  flex-grow: initial;
+    flex-grow: initial;
 }
 
 @media (max-width: 768px) {
-  .nav {
-    flex-direction: column;
-    align-items: center;
-  }
+    .nav {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 .navbar-nav {
-  flex-grow: initial;
+    flex-grow: initial;
 }
 
 .nav-link {
-  font-size: 18px;
-  color: var(--clr-white);
+    font-size: 18px;
+    color: var(--clr-white);
 }
 
 .nav-link:hover {
-  color: var(--clr-white);
+    color: var(--clr-white);
 }
 
 .nav-link::after {
-  content: "";
-  display: block;
-  margin-top: 4px;
-  width: 0%;
-  opacity: 0;
-  height: 2px;
-  background-color: var(--clr-white);
-  transition: width 0.3s;
+    content: "";
+    display: block;
+    margin-top: 4px;
+    width: 0%;
+    opacity: 0;
+    height: 2px;
+    background-color: var(--clr-white);
+    transition: width 0.3s;
 }
 
 .nav-link:hover::after {
-  width: 100%;
-  opacity: 1;
+    width: 100%;
+    opacity: 1;
 }
 
 .nav-link:focus {
-  color: var(--clr-white);
+    color: var(--clr-white);
 }
 
 .nav-link.active {
-  font-weight: 700;
+    font-weight: 700;
 }
+
 
 /* Section Fotos */
 
 #fotos {
-  padding-top: 48px;
-  padding-bottom: 48px;
+    padding-top: 48px;
+    padding-bottom: 48px;
 }
 
 #fotos h2 {
-  color: var(--clr-white);
-  font-size: 2.4em;
+    color: var(--clr-white);
+    font-size: 2.4em;
 }
 
 .categorias {
-  padding: initial;
-  list-style: none;
+    padding: initial;
+    list-style: none;
 }
 
 .categorias a {
-  color: inherit;
-  text-decoration: none;
+    color: inherit;
+    text-decoration: none;
 }
 
 .categoria {
-  position: relative;
-  overflow: hidden;
-  transition: 0.3s;
-  border-radius: 2px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s;
+    border-radius: 2px;
 }
 
 .categoria:hover {
-  background-color: rgba(0, 0, 0, 0.7);
-  background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: overlay;
 }
 
 .categoria img {
-  display: block;
-  width: 100%;
-  height: 400px;
-  object-fit: cover;
-  object-position: bottom;
+    display: block;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position: bottom;
 }
 
 .categoria h3 {
-  margin: initial;
-  padding: 8px 16px;
-  color: var(--clr-white);
-  font-size: 16px;
-  font-weight: 500;
-  border-top-right-radius: 2px;
-  background-color: rgba(10, 10, 10, 0.7);
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  z-index: 1;
+    margin: initial;
+    padding: 8px 16px;
+    color: var(--clr-white);
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--ff-body);
+    border-top-right-radius: 2px;
+    background-color: rgba(10, 10, 10, 0.7);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
 }
 
 .categoria a {
-  font-size: 1.25em;
-  color: var(--clr-white);
-  position: absolute;
-  inset: 0;
-  opacity: 0;
-  display: grid;
-  place-content: center;
-  background-color: rgba(0, 0, 0, 0.5);
-  transition: opacity 0.7s;
+    font-size: 1.25em;
+    color: var(--clr-white);
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    display: grid;
+    place-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: opacity 0.7s;
 }
 
 .categoria:hover a {
-  opacity: 1;
+    opacity: 1;
 }
+
 
 /* Banner */
 
 .banner {
-  width: 100%;
-  height: calc(100vh - 124.5px);
-  background-image: url("../images/bg_banner.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  color: var(--clr-black);
-  padding: 22vh 5%;
-  text-align: center;
+    width: 100%;
+    height: calc(100vh - 124.5px);
+    background-image: url("../images/bg_banner.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: var(--clr-black);
+    padding: 22vh 5%;
+    text-align: center;
 }
 
 .banner h1 {
-  font-family: var(--ff-headings);
-  font-size: 3rem;
+    font-family: var(--ff-headings);
+    font-size: 3rem;
 }
 
 .banner h4 {
-  font-family: var(--ff-body);
-  font-size: 1.8rem;
+    font-family: var(--ff-body);
+    font-size: 1.8rem;
 }
 
 .banner button {
-  font-family: var(--ff-body);
-  font-size: 1.2rem;
-  font-weight: bold;
-  transition: all 0.3s ease-in-out;
-  border-radius: 1.2rem;
-  padding: 0.6rem 3rem;
+    font-family: var(--ff-body);
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    border-radius: 1.2rem;
+    padding: 0.6rem 3rem;
 }
 
 .banner button:hover {
-  background-color: transparent;
-  color: var(--clr-black);
+    background-color: transparent;
+    color: var(--clr-black);
 }
+
 
 /* Footer */
 
-footer > img.logo {
-  width: 150px;
+footer>img.logo {
+    width: 150px;
 }
 
 div.col-lg-1 {
-  flex: 0 0 min-content;
-  margin: 0 10px;
+    flex: 0 0 min-content;
+    margin: 0 10px;
 }
 
 .footer-gallery {
-  filter: saturate(0);
-  transition: all ease-in-out 0.2s;
+    filter: saturate(0);
+    transition: all ease-in-out 0.2s;
 }
 
 .footer-gallery:hover {
-  filter: saturate(1);
+    filter: saturate(1);
 }
