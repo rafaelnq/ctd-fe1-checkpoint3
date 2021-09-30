@@ -5,32 +5,6 @@
     --ff-body: 'Montserrat', sans-serif;
 }
 
-
-/* Custom Scrollbar */
-
-body::-webkit-scrollbar {
-    width: auto;
-}
-
-body::-webkit-scrollbar-track {
-    background: var(--clr-white);
-}
-
-body::-webkit-scrollbar-thumb {
-    background: linear-gradient(var(--clr-white), #232323d5, #232323d5, #232323d5, var(--clr-white));
-    border: .25em solid;
-    border-radius: 100vw;
-}
-
-body::-webkit-scrollbar-thumb:hover {
-    background: linear-gradient(var(--clr-white), var(--clr-black), var(--clr-black), var(--clr-white));
-    border: .25em solid;
-    border-radius: 100vw;
-}
-
-
-/* end of Custom Scrollbar  */
-
 body {
     background-color: var(--clr-black);
     color: var(--clr-white);
